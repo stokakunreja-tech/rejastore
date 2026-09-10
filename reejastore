@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tao Kedai Rupa-Rupa</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 0.95rem;
+            color: #ecf0f1;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .info {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+
+        .desc {
+            font-size: 0.9rem;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .btn-order {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 10px 18px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .btn-order:hover {
+            background-color: #128c7e;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 25px 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .footer-text {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 12px;
+        }
+
+        .copyright {
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER / NAMA reja -->
+        <header>
+            <h1>Tao Kedai Rupa-Rupa</h1>
+            <p>Satu tempat untuk berbagai pilihan unik dan kebutuhanmu</p>
+        </header>
+
+        <!-- ITEM 1: KOPI ROBUSTA -->
+        <div class="card">
+            <!-- Gambar Cangkir Kopi -->
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300" alt="Kopi Robusta" class="menu-img">
+            <div class="info">
+                <div class="title">Kopi Robusta</div>
+                <div class="desc">Rasa pahit yang jujur untuk hari yang panjang. Aroma kuat dan cita rasa mantap yang bikin fokus lagi.</div>
+            </div>
+            <!-- Ubah nomor 6281234567890 ke nomor WA Anda -->
+            <a href="https://wa.me/6285385873766?text=Halo,%20saya%20mau%20pesan%20Kopi%20Robusta" class="btn-order" target="_blank">Pesan Sekarang</a>
+        </div>
+
+        <!-- ITEM 2: KELOMANG / KEONG -->
+        <div class="card">
+            <!-- Gambar Keong / Kelomang -->
+            <img src="https://images.unsplash.com/photo-1533514114760-4389f572ae26?w=300" alt="Kelomang" class="menu-img">
+            <div class="info">
+                <div class="title">Kelomang / Keong Hias</div>
+                <div class="desc">Teman kecil yang menggemaskan dengan cangkang unik. Pas banget buat peliharaan santai di rumah.</div>
+            </div>
+            <!-- Ubah nomor 6281234567890 ke nomor WA Anda -->
+            <a href="https://wa.me/6285385873766?text=Halo,%20saya%20mau%20pesan%20Kelomang" class="btn-order" target="_blank">Pesan Sekarang</a>
+        </div>
+
+        <!-- ITEM 3: BOTI (ORANG) -->
+        <div class="card">
+            <!-- Gambar Orang / Cowok -->
+            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300" alt="Boti" class="menu-img">
+            <div class="info">
+                <div class="title">Boti</div>
+                <div class="desc">Teman ngobrol seru dan easygoing. Pas buat diajak curhat, jalan-jalan, atau sekadar nongkrong santai.</div>
+            </div>
+            <!-- Ubah nomor 6285385873766 ke nomor WA Anda -->
+            <a href="https://wa.me/6285385873766?text=Halo,%20saya%20ingin%20menghubungi%20tentang%20Boti" class="btn-order" target="_blank">Hubungi</a>
+        </div>
+
+        <footer>
+            <p class="footer-text">"Salam dari Tao: Dari yang pahit, yang unik, sampai yang bikin nyaman—semua ada di sini. Pilih favoritmu dan mari terhubung!"</p>
+            <p class="copyright">&copy; muchammad fahreza aditya. kedai rejastore akan mengharumi kamu. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
